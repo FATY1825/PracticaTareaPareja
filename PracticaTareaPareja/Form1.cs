@@ -19,6 +19,14 @@ namespace PracticaTareaPareja
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //crear intancia de fish
+            Fish fish = new Fish();
+            fish.animalAge = 2;
+            fish.animalGender = "";
+            fish.CanEar = true;
+            fish.sizeInft = 1;
+
+            MessageBox.Show(fish.GetInfo());
 
         }
     }

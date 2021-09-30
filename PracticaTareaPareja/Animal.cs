@@ -9,8 +9,10 @@ namespace PracticaTareaPareja
     class Animal
     {
         //propiedades
-        public int animalAge { set; get; }
+        public int animalAge { get; set; }
+        public string animalGender { get; set; }
 
 
+        //metodos 
     }
 }
